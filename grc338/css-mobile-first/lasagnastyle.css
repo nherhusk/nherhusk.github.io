@@ -8,29 +8,30 @@ body {
      background-color: #FFFFFF;
 }
 
-img src="lasagna.jpg" alt="Freshly baked Italian Saugage Lasagna resting on a marble countertop with scattered flour, shredded parmesean, and a plant."  {
+img {
     width: 100%; /*Please leave this line.*/
-    align-content: center 
+    margin: 0.5em;
+    border-radius: 1.5em;
 }
+
 figure{
-    padding: 1em; 
+    margin: 0em 1.5em 0em 1.5em;
 }
 
 figcaption {
     color: #000000;
     font-size: 10px;
     font-family: 'acumin-pro', sans-serif;
-    line-height: 2;
     font-weight: lighter;
     padding: 1em;
     text-align: center;
 }
 
 h1 {
-    color: rgb(32, 31, 29);
+    color: #000000;
     font-size: 40px;
     font-family: 'montserrat';
-    line-height: 1.5;
+    line-height: 1.2;
     font-weight: 80;
     text-align: center;
     text-transform: lowercase;
@@ -39,9 +40,9 @@ h1 {
 
 h2 {
     color: #000000;
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'acumin-pro', sans-serif;
-    line-height: 2;
+    line-height: 2.5;
     font-weight: lighter;
     text-align: center;
     text-transform: lowercase;
@@ -50,7 +51,7 @@ h2 {
 
 h3 {
     color: #000000;
-    font-size: 17px;
+    font-size: 18px;
     font-family: 'acumin-pro', sans-serif;
     line-height: 2;
     font-weight: lighter;
@@ -74,12 +75,7 @@ ul {
     font-family: 'acumin-pro', sans-serif;
     line-height: 2;
     font-weight: lighter;
-    margin-left: 3em;
-    margin-right: 3em;
-    margin-top: 1em;
-    text-align: left
-    
-    
+    margin: 1em 3em 0.5em 3em ;  
 }
 
 ol {
@@ -88,20 +84,17 @@ ol {
     font-family: 'acumin-pro', sans-serif;
     line-height: 2;
     font-weight: lighter;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top: 1em;
-    padding-bottom: 1.5em;
+    padding: 1em 3em 1.5em 3em;
 }
 
 h6 {
     color: #000000;
     font-size: 9px;
     font-family: 'acumin-pro', sans-serif;
-    line-height: 2;
     font-weight: lighter;
     text-align: center;
     text-transform: lowercase;
+    margin-bottom: 2em;
 }
 
 
