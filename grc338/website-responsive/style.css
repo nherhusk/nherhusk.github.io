@@ -25,6 +25,9 @@ nav ul{
     background-color: #D9613E;
     margin: 1em;
 }
+nav ul a {
+	color: #FEF9E7;
+	}
 
 nav ul li {
     display: inline;
@@ -37,7 +40,7 @@ nav ul li {
 }
 
 nav ul li a {
-   text-color: #FEF9E7;
+   color: #FEF9E7;
     text-decoration: bold;
     font-family: 'soleil', sans-serif;
 }
@@ -142,6 +145,5 @@ footer {
 
     nav ul li {
         margin: 1em;
-	color: #FEF9E7;
     }
 }
