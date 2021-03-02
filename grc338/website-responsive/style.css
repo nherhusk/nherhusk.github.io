@@ -24,6 +24,7 @@ nav ul{
     padding: .5em;
     background-color: #D9613E;
     margin: 1em;
+	text-decoration: none;
 }
 
 nav ul li {
@@ -34,6 +35,7 @@ nav ul li {
     text-transform: uppercase;
     margin: .5em;
     text-align: center;
+	text-decoration:none;
 }
 
 nav ul li a {
@@ -44,6 +46,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color:#000000;
+	text-decoration: none;
 }
 
 
@@ -143,5 +146,6 @@ footer {
 
     nav ul li {
         margin: 1em;
+	    text-decoration:none;
     }
 }
