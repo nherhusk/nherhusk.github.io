@@ -1,0 +1,146 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+body{
+	background-color: #FEF9E7;
+    text-align: center;
+}
+
+div.container{
+    text-align: center;
+}
+
+#logo{
+	width: 5em;
+	height: auto;
+	margin: .5em auto 0 auto;
+}
+
+nav ul{
+    padding: .5em;
+    background-color: #D9613E;
+    margin: 1em;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: 250;
+    text-transform: uppercase;
+    margin: .5em;
+    text-align: center;
+}
+
+nav ul li a {
+   color: #FEF9E7;
+    text-decoration: none;
+    font-family: 'soleil', sans-serif;
+}
+
+nav ul li a:hover {
+    color:#000000;
+}
+
+
+h1, h2, h3, h4, p, a{
+	font-family: 'soleil', sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+p{
+	text-align: center;
+    font-weight: lighter;
+}
+
+ul li{
+	list-style-type: none;
+    margin-right: 1.5em;
+}
+
+h1 {
+    color: #000000;
+}
+
+h2 {
+    color: #000000;
+    font-size: 2.2em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+h3{
+	color: #D9613E;
+	font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: 250;
+}
+
+h4{
+	color: #000000;
+	margin-bottom: 0.5em;
+}
+
+li p{
+	line-height: 1.5em;
+	color: #000000;
+}
+
+a:link {
+  color: #D9613E;
+}
+
+a:hover {
+  color: #000000;
+}
+
+footer {
+    color: #000000;
+    font-weight: lighter;
+    padding-top: 1em;
+    font-style: italic;
+} 
+
+@media screen and (min-width: 40em){
+
+	div.container{
+	max-width: 60em;
+	margin: auto;
+}
+
+	figure{
+	max-width: 50em;
+	margin: auto;
+	margin-top: 2em;
+}
+    
+    #menu{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+	grid-gap: 3em;
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.purist,.handcrafted,.smoothies,.toast,.sandwiches{
+	padding: 0 4em 0 0;
+}
+
+	nav ul{
+		max-width: 50em;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+	}
+
+    nav ul li {
+        margin: 1em;
+    }
+}
