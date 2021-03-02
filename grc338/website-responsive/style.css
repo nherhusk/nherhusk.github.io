@@ -25,9 +25,6 @@ nav ul{
     background-color: #D9613E;
     margin: 1em;
 }
-nav ul a {
-	color: #FEF9E7;
-	}
 
 nav ul li {
     display: inline;
@@ -48,7 +45,6 @@ nav ul li a {
 nav ul li a:hover {
     color:#000000;
 }
-
 
 h1, h2, h3, h4, p, a{
 	font-family: 'soleil', sans-serif;
@@ -95,7 +91,7 @@ li p{
 }
 
 a:link {
-  color: #D9613E;
+  text decoration:none;
 }
 
 a:hover {
@@ -137,7 +133,7 @@ footer {
 }
 
 	nav ul{
-		max-width: 50em;
+	max-width: 50em;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
