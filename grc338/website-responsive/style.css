@@ -60,7 +60,7 @@ p{
 
 ul li{
 	list-style-type: none;
-    margin-right: 1.5em;
+    	margin-right: 1.5em;
 }
 
 h1 {
@@ -142,5 +142,6 @@ footer {
 
     nav ul li {
         margin: 1em;
+	color: #FEF9E7;
     }
 }
