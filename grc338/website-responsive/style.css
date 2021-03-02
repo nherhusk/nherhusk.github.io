@@ -37,8 +37,8 @@ nav ul li {
 }
 
 nav ul li a {
-   color: #FEF9E7;
-    text-decoration: none;
+   text-color: #FEF9E7;
+    text-decoration: bold;
     font-family: 'soleil', sans-serif;
 }
 
