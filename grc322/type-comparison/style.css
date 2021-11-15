@@ -1,7 +1,7 @@
 body {
 	background-color: #fafafa;
 	color: #333333;
-	font-family: monarcha, serif;
+	font-family: calluna, serif;
     font-style: normal;
     font-weight: 300;
 }
@@ -42,7 +42,7 @@ h2 {
 	font-size: 2em; 
 	font-weight: 400;
     padding:0.4em 0.2em;
-    background-color: antiquewhite
+    background-color: lightgray
 }
 
 h3 {
