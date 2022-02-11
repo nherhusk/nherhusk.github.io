@@ -1,0 +1,234 @@
+/*CSS document*/
+
+body {
+    background-color: #F8F7F2;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    margin-top:  1em;
+    transition: all .25s ease-in-out; 
+}
+
+img.logo{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover{
+    transform: scale(1.01); 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+     font-family: pinot-grigio-modern, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: inline;
+    margin-right: 0.95em;
+    text-transform: uppercase;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul li a{
+    color:  #080708;
+} 
+
+nav ul li a:hover{
+    border-bottom: 3px solid #BED15A;
+    font-weight: 500;
+    font-style: normal;
+    color: #AA84A4;
+}
+
+h2{
+    font-family: pinot-grigio-modern, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:  #080708;
+    text-transform: capitalize;
+}
+
+h3{
+    font-family: pinot-grigio-modern, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  #2E2E2A;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+section.main-story h3{
+    font-size: 1.5em;
+}
+
+section.no-image-story h3{
+    margin-top: 1.5em;
+}
+
+h4{
+    font-family: brother-1816-printed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5em;
+    color:  #2E2E2A;
+    margin-top: 1.5em;
+    margin-bottom:  0;
+}
+
+h3:hover{
+    color: #AA84A4;
+}
+
+p{
+    font-family: brother-1816-printed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color:  #2E2E2A;
+    margin-top: 0.2em;
+    margin-bottom:  0;
+    line-height:  1.25em;
+}
+
+section.normal-story p{
+    margin-bottom:  1.25em;
+}
+
+section.bottom-story p{
+    margin-bottom:  1.5em;
+}
+
+p.author{
+    margin-top:  3em;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    border: 1px dashed #080708;
+    margin-top:  1.5em;
+    margin-bottom:  1.5em;
+}
+
+figcaption{
+    font-family: brother-1816-printed, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color:  #2E2E2A;
+    margin-bottom:  1.5em;
+}
+
+footer{
+    text-align: right;
+    margin-top:  2em;
+}
+
+
+/*CSS document
+
+body {
+  background-color: #E7E4D4;
+}
+
+div.container {
+  max-width: 40em;
+  margin: auto;
+}
+
+figure {
+  margin: 5em auto 1em;
+}
+
+.mainstory {
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-family: pinot-grigio-modern, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 80%;
+}
+
+nav ul li {
+  display: inline;
+  margin: 1em;
+    
+}
+
+h2 {
+  font-family: pinot-grigio-modern, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 300%;
+  text-decoration: none;
+  margin-bottom: auto;
+  color: rgb(244, 1, 5);
+}
+
+h3 {
+  font-family: pinot-grigio-modern, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200%;
+  text-decoration: none;
+  margin-bottom: 0.2em;
+  color: rgb(244, 1, 5);
+}
+
+p {
+  font-family: brother-1816-printed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 3em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a p {
+  color: rgb(38, 38, 44);
+}
+
+li a {
+  color: #DF7B38;
+} */
