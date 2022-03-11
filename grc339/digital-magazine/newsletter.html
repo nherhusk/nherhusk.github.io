@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" href="https://use.typekit.net/moz6roh.css">
+        <title>the lib</title>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+    </head>
+    
+    <body>
+      <div class="newsletter">
+         <header>
+            <h1> <a href="index.html"><img src="images/logo.png" alt="Logo of the lib."> </a></h1>
+            <nav>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="#">Book Lists</a></li>
+                   <li><a href="#">Interviews</a></li>
+                   <li><a href="#">Reviews</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Contact</a></li>
+               </ul>
+            </nav>
+         </header>
+         <main class="newsletter">
+            <h2>Join Our Newsletter</h2>
+            <h4>Fill out the form below to get personalized book recommendations and to stay up to date with fresh new reads!</h4>
+            <img src="images/newsletterimage.png" alt="Pages of open books with a green overlay."/>
+            <form>
+               <section class="personal-info">
+                  <h5>Personal information</h5>
+                  <ul>
+                     <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name" /></li>
+                     <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="your email" /></li>
+                     <li><label for="phone">Phone:</label> <input type="phone" name="phone" id="phone" placeholder="your phone number" /></li>
+                  </ul>
+               </section>
+               <section class="method">
+                  <h5>Which newsletters would you like to sign up for?</h5>
+                  <ul>
+                     <li><input type="checkbox" id="new" value="new" /> <label for="new">New</label></li>
+                     <li><input type="checkbox" id="booklists" value="booklists" /> <label for="booklists">Booklists</label></li>
+                     <li><input type="checkbox" id="interviews" value="interviews" /> <label for="interviews">Interviews</label></li>
+                  </ul>
+               </section>
+               <section class="method">
+                  <h5>Method of delivery</h5>
+                  <ul>
+                     <li><input type="checkbox" id="email" value="email" /> <label for="email">Email</label></li>
+                     <li><input type="checkbox" id="text" value="text" /> <label for="text">Text</label></li>
+                  </ul>
+               </section>
+               <section>
+                  <h5>Questions or Comments</h5>
+                  <textarea id="notes" name="notes"></textarea>
+               </section>
+               <section>
+                  <button type="Submit">Submit</button>
+               </section>
+            </form>
+         </main>
+         <footer>
+            <p> © the lib 2022 · All rights reserved.</p>
+         </footer>
+      </div>
+   </body>
+</html>

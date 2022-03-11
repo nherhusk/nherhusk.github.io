@@ -13,18 +13,16 @@ div.container {
 main.gallery {
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(65% + 5em);
+    padding-bottom: calc(62% + .1em);
 }
 
 section {
-    background-color: #ffffff;
-    padding: 1em;
-    margin: 1em auto 2em;
+    padding: 0.25em;
+    margin: 1em auto 1em;
     max-width: 40em;
 }
 
 article {
-    background-color: #ffffff;
     padding: 1em;
 }
 
@@ -46,40 +44,6 @@ figure {
     margin: 0;
 }
 
-.gallery figure {
-    margin: 0;
-    width: 100%;
-    position: absolute;
-    left: 100%;
-    opacity: 0;
-    transition: opacity 1s;
-}
-
-input {
-    display: none;
-}
-
-input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
-input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
-input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
-input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
-input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
-input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
-input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
-input:nth-of-type(8):checked ~ main figure:nth-of-type(8) {
-    left: 0;
-    opacity: 1;
-}
-
-nav.photobar {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-label {
-    flex: 1 0 6em;
-    padding: 0.2em;
-}
 
 img {
     width: 100%;
@@ -164,6 +128,19 @@ h3:hover{
     color: #F7A981;
 }
 
+h4 {
+    font-family: brother-1816-printed, sans-serif;
+    font-weight: 300;
+    color:  #2E2E2A;
+}
+
+h5 {
+    font-family: brother-1816-printed, sans-serif;
+    font-weight: 400;
+    color:  #2E2E2A;
+    text-transform: uppercase;
+}
+
 p {
     font-family: brother-1816-printed, sans-serif;
     font-weight: 200;
@@ -199,10 +176,120 @@ p {
     padding: 0.2em;
 }
 
+.newsletter h2 {
+    background-color: #2E2E2A;
+    padding: 0.2em;
+}
+
 .gallery figcaption {
     color: #2E2E2A;
     text-align: left;
     padding-top: 0.1em;
+    font-weight: 200;
+}
+
+/*Photo Gallery*/
+
+div.photogallery {
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+main.photogallery {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: calc(65% + 3em);
+}
+
+main.photogallery figure {
+	margin: 0;
+	width: calc(100%-2em);
+	position: absolute;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+input:nth-of-type(1):checked~main figure:nth-of-type(1),
+input:nth-of-type(2):checked~main figure:nth-of-type(2),
+input:nth-of-type(3):checked~main figure:nth-of-type(3),
+input:nth-of-type(4):checked~main figure:nth-of-type(4),
+input:nth-of-type(5):checked~main figure:nth-of-type(5),
+input:nth-of-type(6):checked~main figure:nth-of-type(6),
+input:nth-of-type(7):checked~main figure:nth-of-type(7),
+input:nth-of-type(8):checked~main figure:nth-of-type(8) {
+	opacity: 1;
+}
+
+div.photogallery input {
+	display: none;
+}
+
+nav.photogallery {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-gap: 1em;
+	margin-bottom: 2em;
+}
+
+/*Newsletter*/
+
+div.newsletter {
+	max-width: 50em;
+	margin: auto;
+}
+
+main.newsletter {
+	display: block;
+}
+
+section.personal-info ul li {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: .85em;
+}
+
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="phone"],
+section ul li select {
+	flex: 1 0 10em;
+	box-sizing: border-box;
+	border: .125em solid #2E2E2A;
+	font-family: brother-1816-printed, sans-serif;
+	color: #2E2E2A;
+}
+
+section.personal-info ul li label {
+	flex: 0 0 5em;
+}
+
+section.method ul li {
+	margin: 0 0 .25em 0;
+}
+
+main.newsletter h2 {
+	margin-top: .25em;
+}
+
+textarea {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	height: 10em;
+	background: #fcfcfc;
+	border: .125em solid #2E2E2A;
+	font-family: brother-1816-printed, sans-serif;
+	color: #2E2E2A;
+}
+
+button {
+	background-color: #BED15A;
+	border: none;
+	color: #2E2E2A;
+	font-size: .95em;
+	font-family: brother-1816-printed, sans-serif;
+	padding: .75em;
+	cursor: pointer;
 }
 
 @media screen and (min-width:60em) {
@@ -251,12 +338,15 @@ p {
         grid-row: 3/4;
     }
     
+    main.gallery, nav.gallery {
+        grid-column: 1/3;
+    }
+    
     label {
         padding: 0.4em
     }
     
     footer {
         grid-column: 1/4;
-    }
-    
+    }    
 }
